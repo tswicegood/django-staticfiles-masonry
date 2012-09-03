@@ -23,8 +23,10 @@ can use this oneliner to add it as well:
 
 Build
 -----
-`Masonry`_ packages pre-built versions of the code in its Git repository.
-No further tools are necessary to build it.
+`Masonry`_ packages pre-built versions of the code in its Git repository.  No
+further tools are necessary to build it.  See ``support/build.py`` for more
+information on how data is transferred from the submodule to the Python
+package.
 
 
 .. _django-staticfiles: https://github.com/jezdez/django-staticfiles
